@@ -139,9 +139,9 @@ Chef's Menu Manager Final Portfolio of Evidence.
 
 ## Video Demonstration
 
-YouTube demonstration link: [Insert your Unlisted YouTube video link here]
+YouTube demonstration link: (https://youtu.be/90UkAij4u4A)
 
 
 ## GitHub Repository
 
-Repository link: [Insert your GitHub repository link here]
+Repository link: 
