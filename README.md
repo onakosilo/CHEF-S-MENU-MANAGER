@@ -1,56 +1,146 @@
-# Welcome to your Expo app 👋
+# Chef's Menu Manager
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Project Overview
 
-## Get started
+Chef's Menu Manager is a React Native mobile application developed to help restaurant owners and chefs manage their restaurant menus.
 
-1. Install dependencies
+The application allows users to add, view, edit and delete menu items. It also includes search functionality, course filtering and menu statistics.
 
-   ```bash
+This project was developed using React Native, Expo and TypeScript.
+
+## Technologies Used
+
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- React Context API
+- AsyncStorage
+- Visual Studio Code
+- Git and GitHub
+
+## Application Features
+
+### 1. Menu Management
+- Add new menu items.
+- View existing menu items.
+- Edit menu item information.
+- Update dish names, descriptions, courses and prices.
+- Delete existing menu items.
+- Save menu information locally.
+
+### 2. Search and Filtering
+- Search menu items by name.
+- Filter items by Starter, Main Course and Dessert.
+- Clear search terms and filters.
+- Display updated search results.
+
+### 3. Menu Statistics
+- Display the total number of menu items.
+- Calculate the average menu price.
+- Display the number of dishes in each course.
+- Present course statistics using visual progress bars.
+
+### 4. User Experience
+- Consistent application styling.
+- Clear navigation.
+- Input validation.
+- Success and error messages.
+- Empty-state messages.
+- Confirmation before deleting menu items.
+
+## Installation Instructions
+
+1. Clone the GitHub repository.
+2. Open the project folder in Visual Studio Code.
+3. Open the terminal.
+4. Install the dependencies:
+
    npm install
-   ```
 
-2. Start the app
+5. Install the storage dependency:
 
-   ```bash
+   npx expo install @react-native-async-storage/async-storage
+
+6. Start the application:
+
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+7. Open the application using Expo Go or the supported development environment.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Changelog: Changes Since Part 2
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The following improvements were implemented during the final development stage.
 
-## Get a fresh project
+### New Functionality
 
-When you're ready, run:
+- Added the ability to edit existing menu items.
+- Added functionality to update menu item information.
+- Added the ability to delete menu items.
+- Added search functionality for menu items.
+- Added filtering by course category.
+- Added a clear search and filter function.
+- Added menu statistics.
+- Added automatic average price calculations.
+- Added course-based menu item counts.
+- Added local data persistence using AsyncStorage.
 
-```bash
-npm run reset-project
-```
+### User Interface Improvements
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+- Updated the application's colour scheme.
+- Improved spacing and alignment.
+- Introduced menu item cards.
+- Improved the presentation of menu statistics.
+- Added clearer action buttons.
+- Improved navigation labels.
+- Added empty-state messages.
 
-### Other setup steps
+### Validation and User Feedback
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+- Added required-field validation.
+- Added price validation.
+- Added success messages.
+- Added error messages.
+- Added deletion confirmation.
 
-## Learn more
+## Refactoring Changes
 
-To learn more about developing your project with Expo, look at the following resources:
+The application was reorganised to improve code readability and maintainability.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+The following changes were implemented:
 
-## Join the community
+- Introduced a MenuContext to manage shared menu data.
+- Created reusable menu management functions.
+- Separated menu data management from screen presentation.
+- Used meaningful variable and function names.
+- Used TypeScript interfaces to define menu item structures.
+- Used reusable course definitions.
+- Used React hooks to manage application state.
+- Used useMemo for search and filtering calculations.
+- Introduced a consistent theme configuration.
 
-Join our community of developers creating universal apps.
+## Course Categories
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+The application supports three menu categories:
+
+- Starter
+- Main Course
+- Dessert
+
+## Data Storage
+
+Menu items are stored locally using AsyncStorage.
+
+This allows menu information to remain available when the application is closed and reopened.
+
+## Author
+
+Chef's Menu Manager Final Portfolio of Evidence.
+
+## Video Demonstration
+
+YouTube demonstration link: [Insert your Unlisted YouTube video link here]
+
+## GitHub Repository
+
+Repository link: [Insert your GitHub repository link here]
