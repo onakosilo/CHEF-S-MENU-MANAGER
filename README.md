@@ -144,4 +144,4 @@ YouTube demonstration link: (https://youtu.be/90UkAij4u4A)
 
 ## GitHub Repository
 
-Repository link: 
+Repository link: https://github.com/onakosilo/CHEF-S-MENU-MANAGER.git
